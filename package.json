@@ -1,0 +1,27 @@
+{
+  "name": "abasar",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rajendra-chimala/Job-Portal-Backend-in-Node-Js-Express-Js-MongoDB#readme",
+  "bugs": {
+    "url": "https://github.com/rajendra-chimala/Job-Portal-Backend-in-Node-Js-Express-Js-MongoDB/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajendra-chimala/Job-Portal-Backend-in-Node-Js-Express-Js-MongoDB.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9"
+  }
+}
