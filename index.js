@@ -16,6 +16,14 @@ DB_Connection()
 
 
 
+//Route
+app.use(express.json());
+app.use("/abasar/",require('./Route/userRoute.js'));
+
+app.use("/abasar/recruiter",require('./Route/recruiterRoute'));
+
+// app.use(cors());
+
 
 //Port Listening - Start the server  - Express Server 3000
 app.listen(PORT, ()=>{
