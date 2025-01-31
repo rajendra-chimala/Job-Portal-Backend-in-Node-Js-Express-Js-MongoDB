@@ -22,6 +22,8 @@ app.use("/abasar/",require('./Route/userRoute.js'));
 
 app.use("/abasar/recruiter",require('./Route/recruiterRoute'));
 
+app.use("/abasar/job/",require('./Route/jobRoute.js'));
+
 // app.use(cors());
 
 

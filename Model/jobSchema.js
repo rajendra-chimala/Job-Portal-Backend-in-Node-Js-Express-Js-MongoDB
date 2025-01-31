@@ -17,12 +17,21 @@ const jobSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    skills:[{
+
+        type: String,
+        required: true
+    }],
     salaryRangeMin: {
         type: Number, // Use Number instead of String
         required: true
     },
     salaryRangeMax: {
         type: Number, // Use Number instead of String
+        required: true
+    },
+    experience:{
+        type: Number,
         required: true
     },
     jobType: {
